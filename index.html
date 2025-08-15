@@ -14,6 +14,42 @@
   gap: 12px;
 }
 
+#printTotals {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 11px;
+  margin-top: 12px;
+  table-layout: fixed;
+}
+
+#printTotals th,
+#printTotals td {
+  border: 1px solid #000;
+  padding: 6px 8px;
+  text-align: center;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+
+#kmukupno {
+    background: #ffffff;
+    padding: 20px;
+    border: 1px solid #cbd5e1;
+border-radius: 6px;
+    width: 100%;
+    text-align: center;
+}
+
+#eurukupno {
+    background: #ffffff;
+    padding: 20px;
+    border: 1px solid #cbd5e1;
+border-radius: 6px;
+    text-align: center;
+    width: 100%;
+}
+
 .group-total {
     font-weight: bold;
             background: #ffffff;
@@ -140,6 +176,10 @@
 
         .napomena-wrapper {
   margin-top: 16px;
+}
+
+#napomena {
+    padding:0;
 }
 
 .print-button {
@@ -317,6 +357,7 @@
             font-weight: bold;
             margin-top: 6px;
             font-size: 14px;
+            padding: 10px 10px;
         }
 
         .totals {
@@ -374,8 +415,8 @@
         <div id="groups"></div>
 
         <div class="totals">
-            <div>UKUPNO KM: <span id="sumKM">0.00</span></div>
-            <div>UKUPNO EUR: <span id="sumEUR">0.00</span></div>
+            <div id="kmukupno">UKUPNO KM: <span id="sumKM">0.00</span></div>
+            <div id="eurukupno">UKUPNO EUR: <span id="sumEUR">0.00</span></div>
         </div>
 
         <div class="napomena-wrapper">
