@@ -6,6 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TREBOVANJE NOVČANIH DOTACIJA</title>
     <style>
+        .group-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+  gap: 12px;
+}
+
+.group-total {
+    font-weight: bold;
+            background: #ffffff;
+            padding: 8px;
+            border: 1px solid #cbd5e1;
+            border-radius: 6px;
+
+}
+.group-controls .add-btn {
+  flex-shrink: 0;
+}
+
+.group-controls .group-total {
+  flex-grow: 1;
+  text-align: right;
+  font-weight: bold;
+}
+
+        .blagajna-divider {
+  display: block;
+    margin-top: 12px;
+    border-top: 1px solid #e9e9e9;
+    width: 100%;
+
+}
+
         @media print {
   @page {
     margin: 8mm;
@@ -104,13 +138,39 @@
   }
 }
 
-        #napomena {
-            width: 100%;
-            border: 1px solid #cbd5e1;
-            border-radius: 14px;
-            padding: 5px;
-        }
+        .napomena-wrapper {
+  margin-top: 16px;
+}
 
+.print-button {
+  display: block;
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 15px;
+  font-weight: 500;
+  background-color: #0078D4;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.print-button:hover {
+  background-color: #005fa3;
+}
+
+.notes-area {
+  width: 100%;
+  min-height: 80px;
+  padding: 8px;
+  font-size: 13px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  background-color: #fefefe;
+}
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -216,27 +276,47 @@
 
         .add-btn,
         .remove-btn {
-            padding: 4px 8px;
+            padding: 10px 10px;
             border: none;
             border-radius: 4px;
             cursor: pointer;
         }
 
         .add-btn {
+            font-weight: bolder;
             background: #10b981;
+            border:1px solid #10b981;
             color: white;
             margin-top: 8px;
         }
 
+        .add-btn:hover {
+            background: #b3e9d7;
+            color: #053525;
+            border:1px solid #10b981;
+            margin-top: 8px;
+        }
+
         .remove-btn {
+            font-weight: bolder;
             background: #ef4444;
+            border:1px solid #ef4444;
             color: white;
+            width: 100%;
+        }
+
+        .remove-btn:hover {
+            background: #ee9797;
+            color: #550a0a;
+            border:1px solid #ef4444;
+            width: 100%;
         }
 
         .group-total {
             text-align: right;
             font-weight: bold;
             margin-top: 6px;
+            font-size: 14px;
         }
 
         .totals {
@@ -298,15 +378,14 @@
             <div>UKUPNO EUR: <span id="sumEUR">0.00</span></div>
         </div>
 
-        <div class="meta">
-            <div>Napomene: <input type="text" id="napomena" class="notes-line" placeholder="Unesi napomenu ako treba">
-            </div>
-        </div>
+        <div class="napomena-wrapper">
+  <textarea id="napomena" class="notes-area" rows="4" placeholder="Unesi napomenu ako treba"></textarea>
+</div>
 
 
         <div class="actions">
-            <button onclick="window.print()">Print / PDF</button>
-        </div>
+  <button class="print-button" onclick="window.print()">📄 Sačuvaj kao PDF ili štampaj</button>
+</div>
     </div>
 
     <!-- Print-only prikaz -->
@@ -396,7 +475,7 @@
     <td><select class="denom">${apoeni.map(a => `<option value="${a}">${a}</option>`).join('')}</select></td>
     <td><input type="number" class="qty" min="0" value="1"></td>
     <td class="subtotal">0,00 ${currencyFor(category)}</td>
-    <td><button class="remove-btn">🗑</button></td>
+    <td><button class="remove-btn">🗑 Ukloni</button></td>
   `;
             tbody.appendChild(tr);
 
@@ -461,8 +540,14 @@
                 addRow(tbody, category, totalEl);
             });
 
-            groupDiv.appendChild(addBtn);
-            groupDiv.appendChild(totalEl);
+            const controlsRow = document.createElement('div');
+controlsRow.className = 'group-controls';
+controlsRow.appendChild(addBtn);
+controlsRow.appendChild(totalEl);
+groupDiv.appendChild(controlsRow);
+            const divider = document.createElement('div');
+divider.className = 'blagajna-divider';
+groupDiv.appendChild(divider);
             groupsContainer.appendChild(groupDiv);
 
             // ⛔️ Ne dodajemo red automatski
@@ -574,44 +659,53 @@
             let colorIndex = 0;
 
             document.querySelectorAll('#groups .group').forEach(group => {
-                const category = group.querySelector('.group-title')?.textContent || '';
-                const currency = currencyFor(category);
-                let groupTotal = 0;
-                const rowColorClass = colorClasses[colorIndex % colorClasses.length];
-                colorIndex++;
+    const category = group.querySelector('.group-title')?.textContent || '';
+    const currency = currencyFor(category);
+    let groupTotal = 0;
 
-                group.querySelectorAll('tbody tr').forEach(row => {
-                    const apoen = parseFloat(row.querySelector('.denom')?.value || 0);
-                    const komada = parseInt(row.querySelector('.qty')?.value || 0);
-                    const iznos = apoen * komada;
+    // Prvo izračunaj zbir
+    group.querySelectorAll('tbody tr').forEach(row => {
+        const apoen = parseFloat(row.querySelector('.denom')?.value || 0);
+        const komada = parseInt(row.querySelector('.qty')?.value || 0);
+        const iznos = apoen * komada;
+        if (apoen && komada) groupTotal += iznos;
+    });
 
-                    if (apoen && komada) {
-                        groupTotal += iznos;
+    // Ako je zbir > 0, dodijeli boju i dodaj redove
+    if (groupTotal > 0) {
+        const rowColorClass = colorClasses[colorIndex % colorClasses.length];
+        colorIndex++;
 
-                        const tr = document.createElement('tr');
-                        tr.className = rowColorClass;
-                        tr.innerHTML = `
-          <td>${category}</td>
-          <td>${formatAmount(apoen)}</td>
-          <td>${komada}</td>
-          <td>${formatAmount(iznos)}</td>
+        group.querySelectorAll('tbody tr').forEach(row => {
+            const apoen = parseFloat(row.querySelector('.denom')?.value || 0);
+            const komada = parseInt(row.querySelector('.qty')?.value || 0);
+            const iznos = apoen * komada;
+
+            if (apoen && komada) {
+                const tr = document.createElement('tr');
+                tr.className = rowColorClass;
+                tr.innerHTML = `
+                    <td>${category}</td>
+                    <td>${formatAmount(apoen)}</td>
+                    <td>${komada}</td>
+                    <td>${formatAmount(iznos)}</td>
+                `;
+                mainBody.appendChild(tr);
+            }
+        });
+
+        const summaryRow = document.createElement('tr');
+        summaryRow.className = rowColorClass;
+        summaryRow.innerHTML = `
+            <td>Zbir za ${category}</td>
+            <td style="text-align:right;">${formatAmount(groupTotal)} ${currency}</td>
         `;
-                        mainBody.appendChild(tr);
-                    }
-                });
+        summaryRows.push(summaryRow);
 
-                if (groupTotal > 0) {
-                    const summaryRow = document.createElement('tr');
-                    summaryRow.innerHTML = `
-        <td>Zbir za ${category}</td>
-        <td style="text-align:right;">${formatAmount(groupTotal)} ${currency}</td>
-      `;
-                    summaryRows.push(summaryRow);
-
-                    if (currency === 'KM') totalBAM += groupTotal;
-                    else totalEUR += groupTotal;
-                }
-            });
+        if (currency === 'KM') totalBAM += groupTotal;
+        else totalEUR += groupTotal;
+    }
+});
 
             printGroups.appendChild(mainTable);
 
@@ -654,4 +748,5 @@
 </body>
 
 </html>
+
 
