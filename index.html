@@ -11,8 +11,8 @@
             font-size: 11px;
             color: #555;
             text-align: center;
-            margin-top:10px;
-            padding:8px;
+            margin-top: 10px;
+            padding: 8px;
         }
 
         #disclaimer a {
@@ -148,6 +148,7 @@
                 background-color: #23266d !important;
                 -webkit-print-color-adjust: exact;
                 print-color-adjust: exact;
+                text-align: right;
             }
 
             .print-table th,
@@ -376,6 +377,7 @@
         }
 
         .totals {
+            text-align: center !important; 
             display: flex;
             justify-content: flex-end;
             gap: 16px;
@@ -403,6 +405,7 @@
             text-align: center;
             margin-top: 12px;
         }
+
     </style>
 </head>
 
@@ -429,7 +432,7 @@
 
         <div id="groups"></div>
 
-        <div class="totals">
+        <div class="totals" style="text-align: center !important;">
             <div id="kmukupno">UKUPNO KM: <span id="sumKM">0.00</span></div>
             <div id="eurukupno">UKUPNO EUR: <span id="sumEUR">0.00</span></div>
         </div>
@@ -444,7 +447,8 @@
         </div>
         <p id="disclaimer">
             Napomena: Molimo da prije slanja još jednom provjerite sve unesene podatke.
-            Ne preuzimamo odgovornost za eventualne greške u unosu ili obradi podataka. <br>U slučaju tehničke greške ili
+            Ne preuzimamo odgovornost za eventualne greške u unosu ili obradi podataka. <br>U slučaju tehničke greške
+            ili
             neispravnog prikaza, kontaktirajte me na <a href="mailto:hello@woxdzn.com">hello@woxdzn.com</a>.
             Hvala na razumijevanju.
         </p>
@@ -464,9 +468,9 @@
 
         <table id="printTotals" style="width:100%; border-collapse:collapse; font-size:11px; margin-top:12px;">
             <thead>
-                <tr>
-                    <th>UKUPAN IZNOS BAM</th>
-                    <th>UKUPAN IZNOS EUR</th>
+                <tr style="text-align: center !important;">
+                    <th style="text-align: center !important;">UKUPAN IZNOS BAM</th>
+                    <th style="text-align: center !important;">UKUPAN IZNOS EUR</th>
                 </tr>
             </thead>
             <tbody>
@@ -682,7 +686,7 @@
             const timestamp = getPrintTimestamp();
 
             const infoLine = document.createElement('div');
-            infoLine.style.fontSize = '11px';
+            infoLine.style.fontSize = '16px';
             infoLine.style.marginBottom = '6px';
             infoLine.style.textAlign = 'center';
             infoLine.textContent = `Blagajnik: ${name}     |     Pošta / Grad: ${post}     |     Vrijeme štampe: ${timestamp}`;
@@ -702,10 +706,10 @@
             mainTable.innerHTML = `
     <thead>
       <tr>
-        <th>Blagajna</th>
-        <th>Apoen</th>
-        <th>Komada</th>
-        <th>Iznos</th>
+        <th style="text-align:left;">Blagajna</th>
+        <th style="text-align:right;">Apoen</th>
+        <th style="text-align:right;">Komada</th>
+        <th style="text-align:right;">Iznos</th>
       </tr>
     </thead>
     <tbody></tbody>
@@ -742,9 +746,9 @@
                             tr.className = rowColorClass;
                             tr.innerHTML = `
                     <td>${category}</td>
-                    <td>${formatAmount(apoen)}</td>
-                    <td>${komada}</td>
-                    <td>${formatAmount(iznos)}</td>
+                    <td style="text-align:right;">${formatAmount(apoen)}</td>
+                    <td style="text-align:right;">${komada}</td>
+                    <td style="text-align:right;">${formatAmount(iznos)}</td>
                 `;
                             mainBody.appendChild(tr);
                         }
@@ -770,7 +774,7 @@
                 summaryTable.className = 'summary-table';
                 summaryTable.innerHTML = `
       <thead>
-        <tr><th colspan="2">Zbir po blagajnama</th></tr>
+        <tr style="text-align: left !important;"><th colspan="2" style="text-align: left !important;">Zbir po blagajnama</th></tr>
       </thead>
       <tbody></tbody>
     `;
@@ -799,7 +803,7 @@
         setToday();
         setInitialTimestamp();
 
-        
+
     </script>
 </body>
 
