@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="bs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TREBOVANJE NOVČANIH DOTACIJA</title>
+    <style>
+        @media print {
+
+            .print-table thead tr,
+            .summary-table thead tr,
+            #printTotals thead tr {
+                background-color: #23266d !important;
+            }
+
+            .print-table thead th,
+            .summary-table thead th,
+            #printTotals thead th {
+                color: #fff !important;
+                background-color: #23266d !important;
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+        }
+
+        @media print {
+            @page {
+                margin: 10mm;
+            }
+
+            body {
+                margin: 0;
+                padding: 0;
+                font-size: 10px;
+                color: #000;
+                background: none;
+            }
+
+            /* Sakrij sve osim #printView */
+            body * {
+                visibility: hidden;
+            }
+
+            #printView,
+            #printView * {
+                visibility: visible;
+            }
+
+            #printView {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+            }
+
+            .print-table,
+            .summary-table {
+                width: 100%;
+                border-collapse: collapse;
+                margin-bottom: 8px;
+                font-size: 10px;
+            }
+
+            .print-table th,
+            .print-table td,
+            .summary-table th,
+            .summary-table td {
+                border: 1px solid #000;
+                padding: 2px 4px;
+                text-align: left;
+            }
+
+            .group-color-a {
+                background-color: #f2f2f2 !important;
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+
+            .group-color-b {
+                background-color: #ffe071 !important;
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+
+            #printTotals {
+                font-weight: bold;
+                margin-top: 8px;
+                font-size: 11px;
+            }
+
+            /* Uklonjen page-break-inside sa table, tr, td, th */
+            /* Zadržano samo na grupama ako baš mora */
+            .group-color-a,
+            .group-color-b {
+                page-break-inside: avoid;
+            }
+
+            .footer-graphic {
+                display: none;
+            }
+        }
+
+        #napomena {
+            width: 100%;
+            border: 1px solid #cbd5e1;
+            border-radius: 14px;
+            padding: 5px;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f8fafc;
+            color: #0f172a;
+        }
+
+        .container {
+            max-width: 980px;
+            margin: 24px auto;
+            padding: 16px;
+            background: white;
+            border: 1px solid #cbd5e1;
+            border-radius: 14px;
+        }
+
+        .header-graphic img,
+        .footer-graphic img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        h1 {
+            font-size: 20px;
+            margin: 0 0 20px 0;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+        .quick-info {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            margin-bottom: 24px;
+            flex-wrap: wrap;
+        }
+
+        .field {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            min-width: 200px;
+        }
+
+        .field label {
+            font-size: 12px;
+            color: #475569;
+        }
+
+        .field input {
+            padding: 6px 8px;
+            border: 1px solid #cbd5e1;
+            border-radius: 6px;
+            font-size: 14px;
+            width: 100%;
+        }
+
+        .group {
+            margin-bottom: 32px;
+        }
+
+        .group-title {
+            font-weight: bold;
+            background: #e2e8f0;
+            padding: 8px;
+            border: 1px solid #cbd5e1;
+            border-radius: 6px 6px 0 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 4px;
+        }
+
+        th,
+        td {
+            border: 1px solid #cbd5e1;
+            padding: 6px 8px;
+            text-align: left;
+            font-size: 14px;
+            vertical-align: middle;
+        }
+
+        th {
+            background: #f1f5f9;
+        }
+
+        select,
+        input[type="number"] {
+            width: 100%;
+            padding: 6px 8px;
+            border: 1px solid #cbd5e1;
+            border-radius: 6px;
+            box-sizing: border-box;
+        }
+
+        input[type="number"] {
+            width: 80px;
+        }
+
+        .add-btn,
+        .remove-btn {
+            padding: 4px 8px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .add-btn {
+            background: #10b981;
+            color: white;
+            margin-top: 8px;
+        }
+
+        .remove-btn {
+            background: #ef4444;
+            color: white;
+        }
+
+        .group-total {
+            text-align: right;
+            font-weight: bold;
+            margin-top: 6px;
+        }
+
+        .totals {
+            display: flex;
+            justify-content: flex-end;
+            gap: 16px;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 12px;
+            font-size: 12px;
+            margin: 10px 0 8px 0;
+        }
+
+        .notes-line {
+            display: inline-block;
+            min-width: 320px;
+            border-bottom: 1px solid #cbd5e1;
+            line-height: 1.8;
+        }
+
+        .actions {
+            text-align: center;
+            margin-top: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>TREBOVANJE NOVČANIH DOTACIJA IZ TREZORA PO BLAGAJNAMA</h1>
+
+        <div class="quick-info">
+            <div class="field">
+                <label for="blagajnik">Blagajnik</label>
+                <input type="text" id="blagajnik" placeholder="Ime i prezime">
+            </div>
+            <div class="field">
+                <label for="posta">Pošta / Grad</label>
+                <input type="text" id="posta" placeholder="npr. 72000 Zenica" list="postaLista">
+                <datalist id="postaLista"></datalist>
+            </div>
+            <div class="field" readonly>
+                <label for="timestamp">Vrijeme generisanja</label>
+                <input type="text" id="timestamp" readonly style="background-color:#f1f5f9; cursor:default; ">
+            </div>
+        </div>
+
+        <div id="groups"></div>
+
+        <div class="totals">
+            <div>UKUPNO KM: <span id="sumKM">0.00</span></div>
+            <div>UKUPNO EUR: <span id="sumEUR">0.00</span></div>
+        </div>
+
+        <div class="meta">
+            <div>Napomene: <input type="text" id="napomena" class="notes-line" placeholder="Unesi napomenu ako treba">
+            </div>
+        </div>
+
+
+        <div class="actions">
+            <button onclick="window.print()">Print / PDF</button>
+        </div>
+    </div>
+
+    <!-- Print-only prikaz -->
+    <div id="printView" style="display:none;">
+        <div class="header-graphic">
+            <img src="https://i.postimg.cc/jqpKVy6N/zaglavlje.jpg" alt="Zaglavlje">
+        </div>
+
+        <h1 style="font-size:14px; text-align:center; margin:6px 0;">TREBOVANJE NOVČANIH DOTACIJA IZ TREZORA PO
+            BLAGAJNAMA</h1>
+
+        <div id="printGroups"></div>
+
+        <table id="printTotals" style="width:100%; border-collapse:collapse; font-size:11px; margin-top:12px;">
+            <thead>
+                <tr>
+                    <th>UKUPAN IZNOS BAM</th>
+                    <th>UKUPAN IZNOS EUR</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="printTotalBAM">0.00</td>
+                    <td id="printTotalEUR">0.00</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="footer-graphic" style="margin-top:12px;">
+            <img src="https://i.postimg.cc/Xv1Ss57r/footer.jpg" alt="Footer">
+        </div>
+    </div>
+
+    <script>
+        fetch('poste.json')
+    .then(res => res.json())
+    .then(data => {
+      const datalist = document.getElementById('postaLista');
+      data.forEach(p => {
+        const option = document.createElement('option');
+        option.value = `${p.PostanskiBroj} ${p.GradMjesto}`;
+        datalist.appendChild(option);
+      });
+    });
+
+  // Automatski timestamp
+  document.getElementById('timestamp').value = new Date().toLocaleString('bs-BA');
+
+
+        document.getElementById('posta').addEventListener('change', function () {
+            const unos = this.value.trim();
+            const podaci = postaPodaci.find(p => `${p.PostanskiBroj} ${p.GradMjesto}` === unos);
+            if (podaci) {
+                console.log('Grad:', podaci.GradMjesto);
+                console.log('Tip pošte:', podaci.Tip);
+                // Možeš ovdje popuniti druga polja ako ih imaš
+            } else {
+                alert('Uneseni poštanski broj nije u listi!');
+                this.value = '';
+            }
+        });
+
+        const categories = [
+            "UPUTNIČKO POSLOVANJE", "MJENJAČKI POSLOVI", "WESTERN UNION KM", "WESTERN UNION EUR",
+            "MEĐUNARODNA ELEKTRONSKA UPUTNICA", "POSTNET UPUTNICE", "POSTEXPRESS UPUTNICE",
+            "MONEYGRAM BAM", "MONEYGRAM EUR", "ISPLATA KREDITA PARTNER", "RIA REMITUS"
+        ];
+
+        const apoeni = [0.05, 0.10, 0.20, 0.50, 1, 5, 10, 20, 50, 100, 200];
+
+        const groupsContainer = document.getElementById('groups');
+        const sumKMEl = document.getElementById('sumKM');
+        const sumEUREl = document.getElementById('sumEUR');
+        const datumEl = document.getElementById('datum');
+
+        function currencyFor(cat) {
+            return /EUR/i.test(cat) ? 'EUR' : 'KM';
+        }
+
+        function formatAmount(n) {
+            return n.toLocaleString('de-DE', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+        }
+
+        function addRow(tbody, category, totalEl) {
+            const tr = document.createElement('tr');
+            tr.innerHTML = `
+    <td><select class="denom">${apoeni.map(a => `<option value="${a}">${a}</option>`).join('')}</select></td>
+    <td><input type="number" class="qty" min="0" value="1"></td>
+    <td class="subtotal">0,00 ${currencyFor(category)}</td>
+    <td><button class="remove-btn">🗑</button></td>
+  `;
+            tbody.appendChild(tr);
+
+            const denomSel = tr.querySelector('.denom');
+            const qtyInput = tr.querySelector('.qty');
+            const subtotalEl = tr.querySelector('.subtotal');
+
+            function recalc() {
+                const qty = parseInt(qtyInput.value || 0, 10);
+                const denom = parseFloat(denomSel.value);
+                const val = denom * qty;
+                subtotalEl.textContent = formatAmount(val) + ' ' + currencyFor(category);
+                recalcTotals();
+                recalcGroupTotal(tbody, totalEl, category);
+            }
+
+            denomSel.addEventListener('change', recalc);
+            qtyInput.addEventListener('input', recalc);
+            tr.querySelector('.remove-btn').addEventListener('click', () => {
+                tr.remove();
+                recalcTotals();
+                recalcGroupTotal(tbody, totalEl, category);
+            });
+
+            recalc();
+        }
+
+        function createGroup(category) {
+            const groupDiv = document.createElement('div');
+            groupDiv.className = 'group';
+
+            const title = document.createElement('div');
+            title.className = 'group-title';
+            title.textContent = category;
+            groupDiv.appendChild(title);
+
+            const table = document.createElement('table');
+            const thead = document.createElement('thead');
+            thead.innerHTML = `
+    <tr>
+      <th>Apoen</th>
+      <th>Komada</th>
+      <th>Iznos</th>
+      <th>Akcija</th>
+    </tr>
+  `;
+            table.appendChild(thead);
+
+            const tbody = document.createElement('tbody');
+            table.appendChild(tbody);
+            groupDiv.appendChild(table);
+
+            const addBtn = document.createElement('button');
+            addBtn.className = 'add-btn';
+            addBtn.textContent = '+ Dodaj apoen';
+
+            const totalEl = document.createElement('div');
+            totalEl.className = 'group-total';
+            totalEl.textContent = `Zbir za ${category}: 0,00 ${currencyFor(category)}`;
+
+            addBtn.addEventListener('click', () => {
+                addRow(tbody, category, totalEl);
+            });
+
+            groupDiv.appendChild(addBtn);
+            groupDiv.appendChild(totalEl);
+            groupsContainer.appendChild(groupDiv);
+
+            // ⛔️ Ne dodajemo red automatski
+        }
+
+        function recalcGroupTotal(tbody, totalEl, category) {
+            let sum = 0;
+            tbody.querySelectorAll('tr').forEach(row => {
+                const denomSel = row.querySelector('.denom');
+                const qtyInput = row.querySelector('.qty');
+                if (!denomSel || !qtyInput) return;
+                const denom = parseFloat(denomSel.value);
+                const qty = parseInt(qtyInput.value || 0, 10);
+                sum += denom * qty;
+            });
+            totalEl.textContent = `Zbir za ${category}: ${formatAmount(sum)} ${currencyFor(category)}`;
+        }
+
+        function recalcTotals() {
+            let sumKM = 0, sumEUR = 0;
+            document.querySelectorAll('.subtotal').forEach(cell => {
+                const text = cell.textContent;
+                const val = parseFloat(text.replace('.', '').replace(',', '.'));
+                if (text.includes('EUR')) sumEUR += val;
+                else sumKM += val;
+            });
+            sumKMEl.textContent = formatAmount(sumKM);
+            sumEUREl.textContent = formatAmount(sumEUR);
+        }
+
+        function setToday() {
+            const d = new Date();
+            datumEl.textContent = `${String(d.getDate()).padStart(2, '0')}.${String(d.getMonth() + 1).padStart(2, '0')}.${d.getFullYear()}.`;
+        }
+
+        function setInitialTimestamp() {
+            const now = new Date();
+            const formatted = now.toLocaleString('bs-BA', {
+                day: '2-digit', month: '2-digit', year: 'numeric',
+                hour: '2-digit', minute: '2-digit'
+            });
+            document.getElementById('timestamp').value = formatted;
+        }
+
+        function getPrintTimestamp() {
+            const now = new Date();
+            return now.toLocaleString('bs-BA', {
+                day: '2-digit', month: '2-digit', year: 'numeric',
+                hour: '2-digit', minute: '2-digit'
+            });
+        }
+
+        function validateForm() {
+            const name = document.getElementById('blagajnik').value.trim();
+            const post = document.getElementById('posta').value.trim();
+            if (!name || !post) {
+                alert('Molimo unesite ime blagajnika i broj pošte.');
+                return false;
+            }
+            return true;
+        }
+
+        function preparePrintView() {
+            const printGroups = document.getElementById('printGroups');
+            const totalBAMEl = document.getElementById('printTotalBAM');
+            const totalEUREl = document.getElementById('printTotalEUR');
+            let totalBAM = 0, totalEUR = 0;
+
+            printGroups.innerHTML = '';
+
+            const name = document.getElementById('blagajnik').value.trim().toUpperCase();
+            const post = document.getElementById('posta').value.trim().toUpperCase();
+            const napomena = document.getElementById('napomena')?.value.trim();
+            const timestamp = getPrintTimestamp();
+
+            const infoLine = document.createElement('div');
+            infoLine.style.fontSize = '11px';
+            infoLine.style.marginBottom = '6px';
+            infoLine.style.textAlign = 'center';
+            infoLine.textContent = `Blagajnik: ${name}     |     Pošta / Grad: ${post}     |     Vrijeme štampe: ${timestamp}`;
+            printGroups.appendChild(infoLine);
+
+            if (napomena) {
+                const noteLine = document.createElement('div');
+                noteLine.style.fontSize = '10px';
+                noteLine.style.marginBottom = '6px';
+                noteLine.style.textAlign = 'center';
+                noteLine.textContent = `Napomena: ${napomena}`;
+                printGroups.appendChild(noteLine);
+            }
+
+            const mainTable = document.createElement('table');
+            mainTable.className = 'print-table';
+            mainTable.innerHTML = `
+    <thead>
+      <tr>
+        <th>Blagajna</th>
+        <th>Apoen</th>
+        <th>Komada</th>
+        <th>Iznos</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  `;
+            const mainBody = mainTable.querySelector('tbody');
+
+            const summaryRows = [];
+            const colorClasses = ['group-color-a', 'group-color-b'];
+            let colorIndex = 0;
+
+            document.querySelectorAll('#groups .group').forEach(group => {
+                const category = group.querySelector('.group-title')?.textContent || '';
+                const currency = currencyFor(category);
+                let groupTotal = 0;
+                const rowColorClass = colorClasses[colorIndex % colorClasses.length];
+                colorIndex++;
+
+                group.querySelectorAll('tbody tr').forEach(row => {
+                    const apoen = parseFloat(row.querySelector('.denom')?.value || 0);
+                    const komada = parseInt(row.querySelector('.qty')?.value || 0);
+                    const iznos = apoen * komada;
+
+                    if (apoen && komada) {
+                        groupTotal += iznos;
+
+                        const tr = document.createElement('tr');
+                        tr.className = rowColorClass;
+                        tr.innerHTML = `
+          <td>${category}</td>
+          <td>${formatAmount(apoen)}</td>
+          <td>${komada}</td>
+          <td>${formatAmount(iznos)}</td>
+        `;
+                        mainBody.appendChild(tr);
+                    }
+                });
+
+                if (groupTotal > 0) {
+                    const summaryRow = document.createElement('tr');
+                    summaryRow.innerHTML = `
+        <td>Zbir za ${category}</td>
+        <td style="text-align:right;">${formatAmount(groupTotal)} ${currency}</td>
+      `;
+                    summaryRows.push(summaryRow);
+
+                    if (currency === 'KM') totalBAM += groupTotal;
+                    else totalEUR += groupTotal;
+                }
+            });
+
+            printGroups.appendChild(mainTable);
+
+            if (summaryRows.length > 0) {
+                const summaryTable = document.createElement('table');
+                summaryTable.className = 'summary-table';
+                summaryTable.innerHTML = `
+      <thead>
+        <tr><th colspan="2">Zbir po blagajnama</th></tr>
+      </thead>
+      <tbody></tbody>
+    `;
+                const summaryBody = summaryTable.querySelector('tbody');
+                summaryRows.forEach((row, index) => {
+                    row.className = index % 2 === 0 ? 'group-color-a' : 'group-color-b';
+                    summaryBody.appendChild(row);
+                });
+                printGroups.appendChild(summaryTable);
+            }
+
+            totalBAMEl.textContent = formatAmount(totalBAM);
+            totalEUREl.textContent = formatAmount(totalEUR);
+        }
+        // Print event handlers
+        window.onbeforeprint = () => {
+            if (!validateForm()) return;
+            document.getElementById('printView').style.display = 'block';
+            preparePrintView();
+        };
+
+        window.onafterprint = () => {
+            document.getElementById('printView').style.display = 'none';
+        };
+
+        // Inicijalizacija
+        categories.forEach(cat => createGroup(cat));
+        setToday();
+        setInitialTimestamp();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,2822 @@
+[
+ {
+   "PostanskiBroj": 78255,
+   "GradMjesto": "Aleksandrovac",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 89245,
+   "GradMjesto": "Avtovac",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 72286,
+   "GradMjesto": "Babanovac",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 75290,
+   "GradMjesto": "Banovići",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 78000,
+   "GradMjesto": "Banja Luka",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 78103,
+   "GradMjesto": "Banja Luka",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 78108,
+   "GradMjesto": "Banja Luka",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 78114,
+   "GradMjesto": "Banja Luka",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 70267,
+   "GradMjesto": "Baraći",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 76312,
+   "GradMjesto": "Batković",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 72233,
+   "GradMjesto": "Begov Han",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 88363,
+   "GradMjesto": "Berkovići",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 77000,
+   "GradMjesto": "Bihać",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 76204,
+   "GradMjesto": "Bijela",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 73263,
+   "GradMjesto": "Bijelo Brdo",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 76300,
+   "GradMjesto": "Bijeljina",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 76321,
+   "GradMjesto": "Suho Polje",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 72256,
+   "GradMjesto": "Bila",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 88268,
+   "GradMjesto": "Biletić Polje",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 71253,
+   "GradMjesto": "Bilalovac",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 89230,
+   "GradMjesto": "Bileća",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 72248,
+   "GradMjesto": "Bilješevo",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 88407,
+   "GradMjesto": "Bjelimići",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 88201,
+   "GradMjesto": "Blagaj",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 74275,
+   "GradMjesto": "Blatnica",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 88263,
+   "GradMjesto": "Blatnica",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 71215,
+   "GradMjesto": "Blažuj",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 76210,
+   "GradMjesto": "Boće",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 76277,
+   "GradMjesto": "Bok",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 74322,
+   "GradMjesto": "Boljanić",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 88405,
+   "GradMjesto": "Boračko Jezero",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 88365,
+   "GradMjesto": "Borojevići",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 73225,
+   "GradMjesto": "Borike",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 77240,
+   "GradMjesto": "Bosanska Krupa",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 77250,
+   "GradMjesto": "Bosanski Petrovac",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 80270,
+   "GradMjesto": "Bosansko Grahovo",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 75420,
+   "GradMjesto": "Bratunac",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 76100,
+   "GradMjesto": "Brčko",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 76120,
+   "GradMjesto": "Brčko",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 76101,
+   "GradMjesto": "Brčko",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 77205,
+   "GradMjesto": "Brekovica",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 74210,
+   "GradMjesto": "Brestovo",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 71255,
+   "GradMjesto": "Brestovsko",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 71370,
+   "GradMjesto": "Breza",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 79208,
+   "GradMjesto": "Brezičani",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 76216,
+   "GradMjesto": "Brezovo Polje",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 74206,
+   "GradMjesto": "Brijesnica",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 76206,
+   "GradMjesto": "Brka",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 72243,
+   "GradMjesto": "Brnjic",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 88243,
+   "GradMjesto": "Broćanac",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 73309,
+   "GradMjesto": "Brod",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 74450,
+   "GradMjesto": "Brod",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 76313,
+   "GradMjesto": "Brodac",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 78204,
+   "GradMjesto": "Bronzani Majdan",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 70230,
+   "GradMjesto": "Bugojno",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 75203,
+   "GradMjesto": "Bukinje",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 74277,
+   "GradMjesto": "Buletić",
+   "Tip": " Pošte Srpske Pošta zatvorena"
+ },
+ {
+   "PostanskiBroj": 72293,
+   "GradMjesto": "Bučići",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 88202,
+   "GradMjesto": "Buna",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 72260,
+   "GradMjesto": "Busovača",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 88366,
+   "GradMjesto": "Burmazi",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 88409,
+   "GradMjesto": "Buturović Polje",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 77245,
+   "GradMjesto": "Bužim",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 75405,
+   "GradMjesto": "Caparde",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 71347,
+   "GradMjesto": "Careva Ćuprija",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 77220,
+   "GradMjesto": "Cazin",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 76239,
+   "GradMjesto": "Crkvina",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 88367,
+   "GradMjesto": "Crnići",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 76328,
+   "GradMjesto": "Crnjelovo",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 73280,
+   "GradMjesto": "Čajniče",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 88300,
+   "GradMjesto": "Čapljina",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 88302,
+   "GradMjesto": "Čapljina",
+   "Tip": ""
+ },
+ {
+   "PostanskiBroj": 72224,
+   "GradMjesto": "Čardak",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 72246,
+   "GradMjesto": "Čatići",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 74274,
+   "GradMjesto": "Čečava",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 73307,
+   "GradMjesto": "Čelebići",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 88404,
+   "GradMjesto": "Čelebići",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 75246,
+   "GradMjesto": "Čelić",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 78240,
+   "GradMjesto": "Čelinac",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 88265,
+   "GradMjesto": "Čerin",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 88260,
+   "GradMjesto": "Čitluk",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 88261,
+   "GradMjesto": "Čitluk",
+   "Tip": ""
+ },
+ {
+   "PostanskiBroj": 77226,
+   "GradMjesto": "Ćoralići",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 78427,
+   "GradMjesto": "Ćukali",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 71223,
+   "GradMjesto": "Delijaš",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 79243,
+   "GradMjesto": "Demirovac",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 74400,
+   "GradMjesto": "Derventa",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 75444,
+   "GradMjesto": "Derventa",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 70204,
+   "GradMjesto": "Divičani",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 89233,
+   "GradMjesto": "Divin",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 74101,
+   "GradMjesto": "Doboj",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 75328,
+   "GradMjesto": "Doborovci",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 70210,
+   "GradMjesto": "Dobretići",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 79223,
+   "GradMjesto": "Dobrljin",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 73247,
+   "GradMjesto": "Dobrun",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 72278,
+   "GradMjesto": "Dolac na Lašvi",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 88446,
+   "GradMjesto": "Doljani",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 76233,
+   "GradMjesto": "Domaljevac",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 76231,
+   "GradMjesto": "Domaljevac",
+   "Tip": ""
+ },
+ {
+   "PostanskiBroj": 88305,
+   "GradMjesto": "Domanovići",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 76274,
+   "GradMjesto": "Donja Mahala",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 76257,
+   "GradMjesto": "Donja Međiđa",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 76237,
+   "GradMjesto": "Donja Slatina",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 71305,
+   "GradMjesto": "Donje Moštre",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 79228,
+   "GradMjesto": "Donji Agići",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 79266,
+   "GradMjesto": "Donji Kamengrad",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 88343,
+   "GradMjesto": "Donji Mamići",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 76297,
+   "GradMjesto": "Donji Svilaj",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 70220,
+   "GradMjesto": "Donji Vakuf",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 78432,
+   "GradMjesto": "Donji Vijačani",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 79289,
+   "GradMjesto": "Donji Vrbljani",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 76273,
+   "GradMjesto": "Donji Žabar",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 74209,
+   "GradMjesto": "Dragalovci",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 76323,
+   "GradMjesto": "Dragaljevac",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 78215,
+   "GradMjesto": "Dragočaj",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 88215,
+   "GradMjesto": "Drežnica",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 79290,
+   "GradMjesto": "Drinić",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 88344,
+   "GradMjesto": "Drinovci",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 75410,
+   "GradMjesto": "Drinjača (Zvornik)",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 80260,
+   "GradMjesto": "Drvar",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 70237,
+   "GradMjesto": "Drvetine",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 75358,
+   "GradMjesto": "Duboki Potok",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 75308,
+   "GradMjesto": "Duboštica",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 79227,
+   "GradMjesto": "Dubovik",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 78411,
+   "GradMjesto": "Dubrave",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 75274,
+   "GradMjesto": "Dubrave Donje",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 75273,
+   "GradMjesto": "Dubrave Gornje",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 74483,
+   "GradMjesto": "Dugo Polje",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 88342,
+   "GradMjesto": "Dužice",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 76311,
+   "GradMjesto": "Dvorovi",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 75272,
+   "GradMjesto": "Đurđevik",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 79264,
+   "GradMjesto": "Fajtovci",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 75423,
+   "GradMjesto": "Fakovići",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 73302,
+   "GradMjesto": "Foča",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 71270,
+   "GradMjesto": "Fojnica",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 89247,
+   "GradMjesto": "Fojnica",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 88306,
+   "GradMjesto": "Gabela",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 89240,
+   "GradMjesto": "Gacko",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 74484,
+   "GradMjesto": "Garevac",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 80230,
+   "GradMjesto": "Glamoč",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 88406,
+   "GradMjesto": "Glavatičevo",
+   "Tip": "BH Pošta"
+ },
+ {
+   "PostanskiBroj": 76318,
+   "GradMjesto": "Glavičice",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 74258,
+   "GradMjesto": "Globarica",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 88422,
+   "GradMjesto": "Glogošnica",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 88392,
+   "GradMjesto": "Gradac",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 71275,
+   "GradMjesto": "Gojevići",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 78203,
+   "GradMjesto": "Goleši",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 73101,
+   "GradMjesto": "Goražde",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 76296,
+   "GradMjesto": "Gornja Dubica",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 77222,
+   "GradMjesto": "Gornja Koprivna",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 76238,
+   "GradMjesto": "Gornja Slatina",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 75208,
+   "GradMjesto": "Gornja Tuzla",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 78405,
+   "GradMjesto": "Gornji Podgradci",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 76207,
+   "GradMjesto": "Gornji Rahić",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 79288,
+   "GradMjesto": "Gornji Ribnik",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 78438,
+   "GradMjesto": "Gornji Smrtići",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 78439,
+   "GradMjesto": "Gornji Štrpci",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 74272,
+   "GradMjesto": "Gornji Teslić",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 70240,
+   "GradMjesto": "Gornji Vakuf",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 89201,
+   "GradMjesto": "Grab",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 74219,
+   "GradMjesto": "Grabovica (RS 74219)",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 78227,
+   "GradMjesto": "Grabovica (RS 78227)",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 88443,
+   "GradMjesto": "Gračac",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 75320,
+   "GradMjesto": "Gračanica",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 70233,
+   "GradMjesto": "Gračanica kod Bugojna",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 75276,
+   "GradMjesto": "Gračanica (Živinice)",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 76250,
+   "GradMjesto": "Gradačac",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 78400,
+   "GradMjesto": "Gradiška",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 76234,
+   "GradMjesto": "Grebnice",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 88340,
+   "GradMjesto": "Grude",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 88341,
+   "GradMjesto": "Grude",
+   "Tip": ""
+ },
+ {
+   "PostanskiBroj": 80205,
+   "GradMjesto": "Guber",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 72277,
+   "GradMjesto": "Guča Gora",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 75404,
+   "GradMjesto": "Gušteri",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 71240,
+   "GradMjesto": "Hadžići",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 72225,
+   "GradMjesto": "Hajderovići",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 72245,
+   "GradMjesto": "Haljinići",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 72281,
+   "GradMjesto": "Han Bila",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 71360,
+   "GradMjesto": "Han Pijesak",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 88368,
+   "GradMjesto": "Hodovo",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 88395,
+   "GradMjesto": "Hrasno",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 71144,
+   "GradMjesto": "Hreša",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 78436,
+   "GradMjesto": "Hrvaćani",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 75216,
+   "GradMjesto": "Husino",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 88394,
+   "GradMjesto": "Hutovo",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 71210,
+   "GradMjesto": "Ilidža",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 71380,
+   "GradMjesto": "Ilijaš",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 73208,
+   "GradMjesto": "Ilovača",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 78234,
+   "GradMjesto": "Imljani",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 71123,
+   "GradMjesto": "Istočno Sarajevo",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 77208,
+   "GradMjesto": "Izačić",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 88420,
+   "GradMjesto": "Jablanica",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 70101,
+   "GradMjesto": "Jajce",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 76316,
+   "GradMjesto": "Janja",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 72215,
+   "GradMjesto": "Janjići",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 88224,
+   "GradMjesto": "Jare",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 78233,
+   "GradMjesto": "Javorani",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 74264,
+   "GradMjesto": "Jelah",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 70206,
+   "GradMjesto": "Jezero",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 77241,
+   "GradMjesto": "Jezerski",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 79244,
+   "GradMjesto": "Johova",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 78244,
+   "GradMjesto": "Jošavka",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 72264,
+   "GradMjesto": "Kaćuni",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 72240,
+   "GradMjesto": "Kakanj",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 74413,
+   "GradMjesto": "Kalenderovci",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 75260,
+   "GradMjesto": "Kalesija",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 71230,
+   "GradMjesto": "Kalinovik",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 71355,
+   "GradMjesto": "Kaljina",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 77204,
+   "GradMjesto": "Kamenica",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 72265,
+   "GradMjesto": "Kaonik",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 70235,
+   "GradMjesto": "Karadže",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 72284,
+   "GradMjesto": "Karaula",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 71213,
+   "GradMjesto": "Kasindo",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 80246,
+   "GradMjesto": "Kazaginac",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 88283,
+   "GradMjesto": "Kifino Selo",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 71250,
+   "GradMjesto": "Kiseljak",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 75211,
+   "GradMjesto": "Kiseljak kod Tuzle",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 75280,
+   "GradMjesto": "Kladanj",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 88324,
+   "GradMjesto": "Klobuk (Ljubuški)",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 74207,
+   "GradMjesto": "Klokotnica",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 79280,
+   "GradMjesto": "Ključ",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 78230,
+   "GradMjesto": "Kneževo",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 79246,
+   "GradMjesto": "Knežica",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 71356,
+   "GradMjesto": "Knežina",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 78423,
+   "GradMjesto": "Kobaš",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 88226,
+   "GradMjesto": "Kočerin",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 80244,
+   "GradMjesto": "Kongora",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 76276,
+   "GradMjesto": "Kostrč",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 78207,
+   "GradMjesto": "Kola",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 88400,
+   "GradMjesto": "Konjic",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 77249,
+   "GradMjesto": "Konjodor",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 74489,
+   "GradMjesto": "Koprivna",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 75247,
+   "GradMjesto": "Koraj",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 76236,
+   "GradMjesto": "Kornica",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 74253,
+   "GradMjesto": "Kosova",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 74222,
+   "GradMjesto": "Kostajnica (Doboj)",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 79224,
+   "GradMjesto": "Kostajnica",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 78220,
+   "GradMjesto": "Kotor Varoš",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 74215,
+   "GradMjesto": "Kotorsko",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 72226,
+   "GradMjesto": "Kovači (Zavidovići)",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 79202,
+   "GradMjesto": "Kozarac",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 79240,
+   "GradMjesto": "Kozarska Dubica",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 75413,
+   "GradMjesto": "Kozluk",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 72244,
+   "GradMjesto": "Kraljeva Sutjeska",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 79284,
+   "GradMjesto": "Krasulje",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 76212,
+   "GradMjesto": "Krepšić",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 71260,
+   "GradMjesto": "Kreševo",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 78256,
+   "GradMjesto": "Kriškovci",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 77253,
+   "GradMjesto": "Krnjeuša",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 78206,
+   "GradMjesto": "Krupa na Vrbasu",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 88203,
+   "GradMjesto": "Kruševo",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 78424,
+   "GradMjesto": "Kukulje",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 78443,
+   "GradMjesto": "Kulaši",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 77206,
+   "GradMjesto": "Kulen Vakuf",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 78212,
+   "GradMjesto": "Kuljani",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 80320,
+   "GradMjesto": "Kupres",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 78250,
+   "GradMjesto": "Laktaši",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 78407,
+   "GradMjesto": "Laminci Sređani",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 79204,
+   "GradMjesto": "Lamovita",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 89208,
+   "GradMjesto": "Lastva",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 71254,
+   "GradMjesto": "Lepenica",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 75213,
+   "GradMjesto": "Lipnica",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 80101,
+   "GradMjesto": "Livno",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 80204,
+   "GradMjesto": "Lištani",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 76278,
+   "GradMjesto": "Lončari",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 75240,
+   "GradMjesto": "Lopare",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 75300,
+   "GradMjesto": "Lukavac",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 75327,
+   "GradMjesto": "Lukavica",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 80203,
+   "GradMjesto": "Lusnić",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 79267,
+   "GradMjesto": "Lušci Palanka",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 75214,
+   "GradMjesto": "Ljubače",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 79206,
+   "GradMjesto": "Ljubija",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 88380,
+   "GradMjesto": "Ljubinje",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 89209,
+   "GradMjesto": "Ljubomir",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 88320,
+   "GradMjesto": "Ljubuški",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 88321,
+   "GradMjesto": "Ljubuški",
+   "Tip": ""
+ },
+ {
+   "PostanskiBroj": 88322,
+   "GradMjesto": "Ljubuški",
+   "Tip": ""
+ },
+ {
+   "PostanskiBroj": 88223,
+   "GradMjesto": "Ljuti Dolac",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 74250,
+   "GradMjesto": "Maglaj",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 74216,
+   "GradMjesto": "Majevac",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 77235,
+   "GradMjesto": "Mala Kladuša",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 74418,
+   "GradMjesto": "Mala Sočanica",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 75326,
+   "GradMjesto": "Malešići",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 76208,
+   "GradMjesto": "Maoča",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 78223,
+   "GradMjesto": "Maslovare",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 78410,
+   "GradMjesto": "Mašići",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 76271,
+   "GradMjesto": "Matići",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 74203,
+   "GradMjesto": "Matuzići",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 88266,
+   "GradMjesto": "Međugorje",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 88267,
+   "GradMjesto": "Međugorje",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 88264,
+   "GradMjesto": "Međugorje",
+   "Tip": ""
+ },
+ {
+   "PostanskiBroj": 79247,
+   "GradMjesto": "Međuvođe",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 72282,
+   "GradMjesto": "Mehurići",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 80243,
+   "GradMjesto": "Mesihovina",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 75446,
+   "GradMjesto": "Milići",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 74485,
+   "GradMjesto": "Miloševac",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 73283,
+   "GradMjesto": "Miljeno",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 73313,
+   "GradMjesto": "Miljevina",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 75329,
+   "GradMjesto": "Miričina",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 74480,
+   "GradMjesto": "Modriča",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 71428,
+   "GradMjesto": "Mokro",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 89204,
+   "GradMjesto": "Mosko",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 88000,
+   "GradMjesto": "Mostar",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 88101,
+   "GradMjesto": "Mostar",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 88103,
+   "GradMjesto": "Mostar",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 88104,
+   "GradMjesto": "Mostar",
+   "Tip": ""
+ },
+ {
+   "PostanskiBroj": 88105,
+   "GradMjesto": "Mostar",
+   "Tip": ""
+ },
+ {
+   "PostanskiBroj": 88107,
+   "GradMjesto": "Mostar",
+   "Tip": ""
+ },
+ {
+   "PostanskiBroj": 88108,
+   "GradMjesto": "Mostar",
+   "Tip": ""
+ },
+ {
+   "PostanskiBroj": 88109,
+   "GradMjesto": "Mostar",
+   "Tip": ""
+ },
+ {
+   "PostanskiBroj": 88110,
+   "GradMjesto": "Mostar",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 88123,
+   "GradMjesto": "Mostar",
+   "Tip": ""
+ },
+ {
+   "PostanskiBroj": 88122,
+   "GradMjesto": "Mostar",
+   "Tip": ""
+ },
+ {
+   "PostanskiBroj": 88005,
+   "GradMjesto": "Mostar",
+   "Tip": ""
+ },
+ {
+   "PostanskiBroj": 88106,
+   "GradMjesto": "Mostar",
+   "Tip": ""
+ },
+ {
+   "PostanskiBroj": 88121,
+   "GradMjesto": "Mostar",
+   "Tip": ""
+ },
+ {
+   "PostanskiBroj": 75212,
+   "GradMjesto": "Mramor",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 73206,
+   "GradMjesto": "Mravinjac",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 70260,
+   "GradMjesto": "Mrkonjić Grad",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 78434,
+   "GradMjesto": "Naseobina Lišnja",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 72212,
+   "GradMjesto": "Nemila",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 88390,
+   "GradMjesto": "Neum",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 88280,
+   "GradMjesto": "Nevesinje",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 71383,
+   "GradMjesto": "Nišići",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 72276,
+   "GradMjesto": "Nova Bila",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 75445,
+   "GradMjesto": "Nova Kasaba",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 78418,
+   "GradMjesto": "Nova Topola",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 79220,
+   "GradMjesto": "Novi Grad (Bosanski Novi)",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 74254,
+   "GradMjesto": "Novi Šeher",
+   "Tip": " BH Pošta / HP Mostar"
+ },
+ {
+   "PostanskiBroj": 72290,
+   "GradMjesto": "Novi Travnik",
+   "Tip": " BH Pošta / HP Mostar"
+ },
+ {
+   "PostanskiBroj": 73110,
+   "GradMjesto": "Novo Goražde",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 78428,
+   "GradMjesto": "Nožičko",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 70225,
+   "GradMjesto": "Oborci",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 76235,
+   "GradMjesto": "Obudovac",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 76290,
+   "GradMjesto": "Odžak",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 88285,
+   "GradMjesto": "Odžak",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 71340,
+   "GradMjesto": "Olovo",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 79203,
+   "GradMjesto": "Omarska",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 79293,
+   "GradMjesto": "Opara",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 78406,
+   "GradMjesto": "Orahova",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 75323,
+   "GradMjesto": "Orahovica Donja",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 76270,
+   "GradMjesto": "Orašje",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 76281,
+   "GradMjesto": "Orašje",
+   "Tip": ""
+ },
+ {
+   "PostanskiBroj": 80206,
+   "GradMjesto": "Orguz",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 74412,
+   "GradMjesto": "Osinja",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 74225,
+   "GradMjesto": "Osječani",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 75406,
+   "GradMjesto": "Osmaci",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 88423,
+   "GradMjesto": "Ostrožac",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 77228,
+   "GradMjesto": "Ostrožac",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 76279,
+   "GradMjesto": "Oštra Luka",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 79263,
+   "GradMjesto": "Oštra Luka",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 77244,
+   "GradMjesto": "Otoka",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 72238,
+   "GradMjesto": "Ozimica",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 70243,
+   "GradMjesto": "Pajić Polje",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 74255,
+   "GradMjesto": "Paklenica",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 71420,
+   "GradMjesto": "Pale",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 75453,
+   "GradMjesto": "Papraća",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 76315,
+   "GradMjesto": "Patkovača",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 71243,
+   "GradMjesto": "Pazarić",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 77227,
+   "GradMjesto": "Pećigrad",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 76256,
+   "GradMjesto": "Pelagićevo",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 74317,
+   "GradMjesto": "Petrovo",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 75412,
+   "GradMjesto": "Pilica",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 75248,
+   "GradMjesto": "Piperi",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 78217,
+   "GradMjesto": "Piskavica",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 70275,
+   "GradMjesto": "Pljeva",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 72252,
+   "GradMjesto": "Počulica",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 71425,
+   "GradMjesto": "Podgrab",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 80209,
+   "GradMjesto": "Podhum",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 71387,
+   "GradMjesto": "Podlugovi",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 74217,
+   "GradMjesto": "Podnovlje",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 88403,
+   "GradMjesto": "Podorašac",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 75355,
+   "GradMjesto": "Podorašje",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 70266,
+   "GradMjesto": "Podrašnica",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 88206,
+   "GradMjesto": "Podvelež",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 77232,
+   "GradMjesto": "Podzvizd",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 77209,
+   "GradMjesto": "Pokoj",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 75303,
+   "GradMjesto": "Poljice",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 88240,
+   "GradMjesto": "Posušje",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 88241,
+   "GradMjesto": "Posušje",
+   "Tip": ""
+ },
+ {
+   "PostanskiBroj": 88242,
+   "GradMjesto": "Posušje",
+   "Tip": ""
+ },
+ {
+   "PostanskiBroj": 88240,
+   "GradMjesto": "Posušje",
+   "Tip": ""
+ },
+ {
+   "PostanskiBroj": 78216,
+   "GradMjesto": "Potkozarje",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 88208,
+   "GradMjesto": "Potoci",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 78435,
+   "GradMjesto": "Potočani",
+   "Tip": " Doboj"
+ },
+ {
+   "PostanskiBroj": 76298,
+   "GradMjesto": "Potočani",
+   "Tip": " Odžak"
+ },
+ {
+   "PostanskiBroj": 75433,
+   "GradMjesto": "Potočari",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 73290,
+   "GradMjesto": "Prača",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 73245,
+   "GradMjesto": "Prelovo",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 79287,
+   "GradMjesto": "Previja",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 74276,
+   "GradMjesto": "Pribinić",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 75249,
+   "GradMjesto": "Priboj",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 79102,
+   "GradMjesto": "Prijedor",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 80202,
+   "GradMjesto": "Priluka",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 80245,
+   "GradMjesto": "Prisoje",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 78430,
+   "GradMjesto": "Prnjavor",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 74214,
+   "GradMjesto": "Prnjavor Mali",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 88327,
+   "GradMjesto": "Prolog",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 88440,
+   "GradMjesto": "Prozor",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 76292,
+   "GradMjesto": "Prud",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 70223,
+   "GradMjesto": "Prusac",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 71335,
+   "GradMjesto": "Pržići",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 72207,
+   "GradMjesto": "Puhovac",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 75305,
+   "GradMjesto": "Puračić",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 88325,
+   "GradMjesto": "Radišići",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 75268,
+   "GradMjesto": "Rainci Gornji",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 88245,
+   "GradMjesto": "Rakitno",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 71217,
+   "GradMjesto": "Rakovica",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 88370,
+   "GradMjesto": "Ravno",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 78249,
+   "GradMjesto": "Razboj Lijevče Pošte Srpske",
+   "Tip": ""
+ },
+ {
+   "PostanskiBroj": 76218,
+   "GradMjesto": "Ražljevo",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 79283,
+   "GradMjesto": "Ribnik",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 77215,
+   "GradMjesto": "Ripač",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 73220,
+   "GradMjesto": "Rogatica",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 80247,
+   "GradMjesto": "Roško Polje",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 79226,
+   "GradMjesto": "Rudice",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 73260,
+   "GradMjesto": "Rudo",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 88347,
+   "GradMjesto": "Ružići",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 79285,
+   "GradMjesto": "Sanica Gornja",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 79260,
+   "GradMjesto": "Sanski Most",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 75411,
+   "GradMjesto": "Sapna",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 78202,
+   "GradMjesto": "Saračica",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 71000,
+   "GradMjesto": "Sarajevo",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 71321,
+   "GradMjesto": "Semizovac",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 76205,
+   "GradMjesto": "Seonjaci",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 75207,
+   "GradMjesto": "Simin Han",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 78422,
+   "GradMjesto": "Sitneši",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 79283,
+   "GradMjesto": "Sitnica",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 74212,
+   "GradMjesto": "Sjenina",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 75436,
+   "GradMjesto": "Skelani",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 74261,
+   "GradMjesto": "Skugrić",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 75353,
+   "GradMjesto": "Sladna",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 78253,
+   "GradMjesto": "Slatina Ilidža",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 74323,
+   "GradMjesto": "Sočkovac",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 71350,
+   "GradMjesto": "Sokolac",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 71357,
+   "GradMjesto": "Sokolovići",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 88345,
+   "GradMjesto": "Sovići",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 78420,
+   "GradMjesto": "Srbac",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 75430,
+   "GradMjesto": "Srebrenica",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 75350,
+   "GradMjesto": "Srebrenik",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 71385,
+   "GradMjesto": "Srednje (F BiH)",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 79249,
+   "GradMjesto": "Sreflije",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 74208,
+   "GradMjesto": "Stanari",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 78243,
+   "GradMjesto": "Stara Dubrava",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 79268,
+   "GradMjesto": "Stari Majdan",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 72251,
+   "GradMjesto": "Stari Vitez",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 77224,
+   "GradMjesto": "Stijena",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 73223,
+   "GradMjesto": "Stjenice",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 75324,
+   "GradMjesto": "Stjepan Polje",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 88360,
+   "GradMjesto": "Stolac",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 72209,
+   "GradMjesto": "Stranjani",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 78208,
+   "GradMjesto": "Stričići",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 70273,
+   "GradMjesto": "Strojice",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 88323,
+   "GradMjesto": "Studenci",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 75283,
+   "GradMjesto": "Stupari",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 74221,
+   "GradMjesto": "Suho Polje",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 79229,
+   "GradMjesto": "Svodna",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 76230,
+   "GradMjesto": "Šamac",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 76209,
+   "GradMjesto": "Šatorovići",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 75450,
+   "GradMjesto": "Šekovići",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 75275,
+   "GradMjesto": "Šerići",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 75245,
+   "GradMjesto": "Šibošnica",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 78433,
+   "GradMjesto": "Šibovska",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 70270,
+   "GradMjesto": "Šipovo",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 78224,
+   "GradMjesto": "Šiprage",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 88220,
+   "GradMjesto": "Široki Brijeg",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 88221,
+   "GradMjesto": "Široki Brijeg",
+   "Tip": ""
+ },
+ {
+   "PostanskiBroj": 88222,
+   "GradMjesto": "Široki Brijeg",
+   "Tip": ""
+ },
+ {
+   "PostanskiBroj": 74279,
+   "GradMjesto": "Šnjegotina Gornja",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 75356,
+   "GradMjesto": "Špionica",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 77223,
+   "GradMjesto": "Šturlić",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 80249,
+   "GradMjesto": "Šujica",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 77234,
+   "GradMjesto": "Šumatac",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 71244,
+   "GradMjesto": "Tarčin",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 75414,
+   "GradMjesto": "Teočak",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 74270,
+   "GradMjesto": "Teslić",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 74260,
+   "GradMjesto": "Tešanj",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 74266,
+   "GradMjesto": "Tešanjka",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 88348,
+   "GradMjesto": "Tihaljina",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 75357,
+   "GradMjesto": "Tinja",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 75455,
+   "GradMjesto": "Tišća",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 73311,
+   "GradMjesto": "Tjentište",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 77233,
+   "GradMjesto": "Todorovo",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 75265,
+   "GradMjesto": "Tojšići",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 76272,
+   "GradMjesto": "Tolisa",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 80240,
+   "GradMjesto": "Tomislavgrad",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 80241,
+   "GradMjesto": "Tomislavgrad",
+   "Tip": ""
+ },
+ {
+   "PostanskiBroj": 72213,
+   "GradMjesto": "Topčić Polje",
+   "Tip": "BH Pošta"
+ },
+ {
+   "PostanskiBroj": 70224,
+   "GradMjesto": "Torlakovac",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 72270,
+   "GradMjesto": "Travnik",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 88375,
+   "GradMjesto": "Trebinja",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 89101,
+   "GradMjesto": "Trebinje",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 78252,
+   "GradMjesto": "Trn",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 76335,
+   "GradMjesto": "Trnova Donja",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 71220,
+   "GradMjesto": "Trnovo",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 76310,
+   "GradMjesto": "Trnjaci",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 77225,
+   "GradMjesto": "Tržačka Raštela",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 72283,
+   "GradMjesto": "Turbe",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 75306,
+   "GradMjesto": "Turija",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 78404,
+   "GradMjesto": "Turjak",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 75000,
+   "GradMjesto": "Tuzla",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 76330,
+   "GradMjesto": "Ugljevik",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 74278,
+   "GradMjesto": "Ugodnovići",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 70280,
+   "GradMjesto": "Uskoplje",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 74321,
+   "GradMjesto": "Usora",
+   "Tip": ""
+ },
+ {
+   "PostanskiBroj": 74230,
+   "GradMjesto": "Usora",
+   "Tip": ""
+ },
+ {
+   "PostanskiBroj": 73250,
+   "GradMjesto": "Ustikolina",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 73265,
+   "GradMjesto": "Uvac",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 88444,
+   "GradMjesto": "Uzdol",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 73249,
+   "GradMjesto": "Vardište",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 71330,
+   "GradMjesto": "Vareš",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 71333,
+   "GradMjesto": "Vareš Majdan",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 77243,
+   "GradMjesto": "Varoška Rijeka",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 74213,
+   "GradMjesto": "Velika Bukovica",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 77207,
+   "GradMjesto": "Velika Gata",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 77230,
+   "GradMjesto": "Velika Kladuša",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 76329,
+   "GradMjesto": "Velika Obarska",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 70234,
+   "GradMjesto": "Vesela",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 80208,
+   "GradMjesto": "Vidoši",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 76275,
+   "GradMjesto": "Vidovice",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 70202,
+   "GradMjesto": "Vinac",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 74455,
+   "GradMjesto": "Vinska",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 88247,
+   "GradMjesto": "Vir",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 71300,
+   "GradMjesto": "Visoko",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 73240,
+   "GradMjesto": "Višegrad",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 88307,
+   "GradMjesto": "Višići",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 72250,
+   "GradMjesto": "Vitez",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 88326,
+   "GradMjesto": "Vitina",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 74265,
+   "GradMjesto": "Vitkovci Donji",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 73205,
+   "GradMjesto": "Vitkovići",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 75440,
+   "GradMjesto": "Vlasenica",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 71320,
+   "GradMjesto": "Vogošća",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 88301,
+   "GradMjesto": "Vojarna Grabovine",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 72227,
+   "GradMjesto": "Vozuća",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 74487,
+   "GradMjesto": "Vranjak 7",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 74488,
+   "GradMjesto": "Vranjak 8",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 88113,
+   "GradMjesto": "Vrapčići",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 78211,
+   "GradMjesto": "Vrbanja",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 78225,
+   "GradMjesto": "Vrbanjci",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 78408,
+   "GradMjesto": "Vrbaška",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 79262,
+   "GradMjesto": "Vrhpolje",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 77231,
+   "GradMjesto": "Vrnograč",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 77203,
+   "GradMjesto": "Vrsta",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 76325,
+   "GradMjesto": "Vršani (Bijeljina)",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 76254,
+   "GradMjesto": "Vučkovci",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 74470,
+   "GradMjesto": "Vukosavlje",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 73287,
+   "GradMjesto": "Zaborak",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 76333,
+   "GradMjesto": "Zabrđe",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 78214,
+   "GradMjesto": "Zalužani",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 73305,
+   "GradMjesto": "Zavajt",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 72220,
+   "GradMjesto": "Zavidovići",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 74451,
+   "GradMjesto": "Zborište",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 77236,
+   "GradMjesto": "Zborište",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 76259,
+   "GradMjesto": "Zelinja",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 72101,
+   "GradMjesto": "Zenica",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 72102,
+   "GradMjesto": "Zenica",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 72112,
+   "GradMjesto": "Zenica",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 88286,
+   "GradMjesto": "Zovi Do",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 76214,
+   "GradMjesto": "Zovik Gornji",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 75400,
+   "GradMjesto": "Zvornik",
+   "Tip": " Pošte Srpske"
+ },
+ {
+   "PostanskiBroj": 72236,
+   "GradMjesto": "Željezno Polje",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 72230,
+   "GradMjesto": "Žepče",
+   "Tip": " HP Mostar"
+ },
+ {
+   "PostanskiBroj": 75270,
+   "GradMjesto": "Živinice",
+   "Tip": " BH Pošta"
+ },
+ {
+   "PostanskiBroj": 71373,
+   "GradMjesto": "Župča",
+   "Tip": " BH Pošta"
+ }
+]
