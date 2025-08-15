@@ -105,9 +105,12 @@
                 background: none;
             }
 
-            /* Sakrij sve osim #printView */
             body * {
                 visibility: hidden;
+            }
+
+            #groups {
+                display: none;
             }
 
             #printView,
@@ -178,11 +181,6 @@
                 page-break-inside: avoid;
             }
 
-            .footer-graphic {
-                display: none !important;
-            }
-
-            /* Spriječi razbijanje redova i ćelija */
             tr,
             td,
             th {
@@ -246,8 +244,7 @@
             border-radius: 14px;
         }
 
-        .header-graphic img,
-        .footer-graphic img {
+        .header-graphic img {
             width: 100%;
             height: auto;
             display: block;
@@ -481,9 +478,6 @@
         </table>
 
 
-        <div class="footer-graphic" style="margin-top:12px;">
-            <img src="https://i.postimg.cc/Xv1Ss57r/footer.jpg" alt="Footer">
-        </div>
 
     </div>
 
@@ -499,17 +493,13 @@
                 });
             });
 
-        // Automatski timestamp
         document.getElementById('timestamp').value = new Date().toLocaleString('bs-BA');
-
-
         document.getElementById('posta').addEventListener('change', function () {
             const unos = this.value.trim();
             const podaci = postaPodaci.find(p => `${p.PostanskiBroj} ${p.GradMjesto}` === unos);
             if (podaci) {
                 console.log('Grad:', podaci.GradMjesto);
                 console.log('Tip pošte:', podaci.Tip);
-                // Možeš ovdje popuniti druga polja ako ih imaš
             } else {
                 alert('Uneseni poštanski broj nije u listi!');
                 this.value = '';
@@ -731,7 +721,6 @@
                 const currency = currencyFor(category);
                 let groupTotal = 0;
 
-                // Prvo izračunaj zbir
                 group.querySelectorAll('tbody tr').forEach(row => {
                     const apoen = parseFloat(row.querySelector('.denom')?.value || 0);
                     const komada = parseInt(row.querySelector('.qty')?.value || 0);
@@ -739,7 +728,6 @@
                     if (apoen && komada) groupTotal += iznos;
                 });
 
-                // Ako je zbir > 0, dodijeli boju i dodaj redove
                 if (groupTotal > 0) {
                     const rowColorClass = colorClasses[colorIndex % colorClasses.length];
                     colorIndex++;
@@ -797,7 +785,6 @@
             totalBAMEl.textContent = formatAmount(totalBAM);
             totalEUREl.textContent = formatAmount(totalEUR);
         }
-        // Print event handlers
         window.onbeforeprint = () => {
             if (!validateForm()) return;
             document.getElementById('printView').style.display = 'block';
@@ -808,10 +795,11 @@
             document.getElementById('printView').style.display = 'none';
         };
 
-        // Inicijalizacija
         categories.forEach(cat => createGroup(cat));
         setToday();
         setInitialTimestamp();
+
+        
     </script>
 </body>
 
