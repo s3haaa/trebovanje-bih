@@ -4,213 +4,231 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpeg" href="favicon.png">
     <title>TREBOVANJE NOVČANIH DOTACIJA</title>
     <style>
+        #disclaimer {
+            font-size: 11px;
+            color: #555;
+            text-align: center;
+            margin-top:10px;
+            padding:8px;
+        }
+
+        #disclaimer a {
+            text-decoration: none;
+            color: black;
+        }
+
         .group-controls {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 8px;
-  gap: 12px;
-}
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 8px;
+            gap: 12px;
+        }
 
-#printTotals {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 11px;
-  margin-top: 12px;
-  table-layout: fixed;
-}
+        #printTotals {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 11px;
+            margin-top: 12px;
+            table-layout: fixed;
+        }
 
-#printTotals th,
-#printTotals td {
-  border: 1px solid #000;
-  padding: 6px 8px;
-  text-align: center;
-  width: 50%;
-  box-sizing: border-box;
-}
+        #printTotals th,
+        #printTotals td {
+            border: 1px solid #000;
+            padding: 6px 8px;
+            text-align: center;
+            width: 50%;
+            box-sizing: border-box;
+        }
 
 
-#kmukupno {
-    background: #ffffff;
-    padding: 20px;
-    border: 1px solid #cbd5e1;
-border-radius: 6px;
-    width: 100%;
-    text-align: center;
-}
+        #kmukupno {
+            background: #ffffff;
+            padding: 20px;
+            border: 1px solid #cbd5e1;
+            border-radius: 6px;
+            width: 100%;
+            text-align: center;
+        }
 
-#eurukupno {
-    background: #ffffff;
-    padding: 20px;
-    border: 1px solid #cbd5e1;
-border-radius: 6px;
-    text-align: center;
-    width: 100%;
-}
+        #eurukupno {
+            background: #ffffff;
+            padding: 20px;
+            border: 1px solid #cbd5e1;
+            border-radius: 6px;
+            text-align: center;
+            width: 100%;
+        }
 
-.group-total {
-    font-weight: bold;
+        .group-total {
+            font-weight: bold;
             background: #ffffff;
             padding: 8px;
             border: 1px solid #cbd5e1;
             border-radius: 6px;
 
-}
-.group-controls .add-btn {
-  flex-shrink: 0;
-}
+        }
 
-.group-controls .group-total {
-  flex-grow: 1;
-  text-align: right;
-  font-weight: bold;
-}
+        .group-controls .add-btn {
+            flex-shrink: 0;
+        }
+
+        .group-controls .group-total {
+            flex-grow: 1;
+            text-align: right;
+            font-weight: bold;
+        }
 
         .blagajna-divider {
-  display: block;
-    margin-top: 12px;
-    border-top: 1px solid #e9e9e9;
-    width: 100%;
+            display: block;
+            margin-top: 12px;
+            border-top: 1px solid #e9e9e9;
+            width: 100%;
 
-}
+        }
 
         @media print {
-  @page {
-    margin: 8mm;
-    size: auto;
-  }
+            @page {
+                margin: 8mm;
+                size: auto;
+            }
 
-  body {
-    margin: 0;
-    padding: 0;
-    font-size: 10px;
-    color: #000;
-    background: none;
-  }
+            body {
+                margin: 0;
+                padding: 0;
+                font-size: 10px;
+                color: #000;
+                background: none;
+            }
 
-  /* Sakrij sve osim #printView */
-  body * {
-    visibility: hidden;
-  }
+            /* Sakrij sve osim #printView */
+            body * {
+                visibility: hidden;
+            }
 
-  #printView,
-  #printView * {
-    visibility: visible;
-  }
+            #printView,
+            #printView * {
+                visibility: visible;
+            }
 
-  #printView {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-  }
+            #printView {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+            }
 
-  .print-table,
-  .summary-table,
-  #printTotals {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 6px;
-    font-size: 10px;
-    page-break-inside: avoid;
-  }
+            .print-table,
+            .summary-table,
+            #printTotals {
+                width: 100%;
+                border-collapse: collapse;
+                margin-bottom: 6px;
+                font-size: 10px;
+                page-break-inside: avoid;
+            }
 
-  .print-table thead tr,
-  .summary-table thead tr,
-  #printTotals thead tr {
-    background-color: #23266d !important;
-  }
+            .print-table thead tr,
+            .summary-table thead tr,
+            #printTotals thead tr {
+                background-color: #23266d !important;
+            }
 
-  .print-table thead th,
-  .summary-table thead th,
-  #printTotals thead th {
-    color: #fff !important;
-    background-color: #23266d !important;
-    -webkit-print-color-adjust: exact;
-    print-color-adjust: exact;
-  }
+            .print-table thead th,
+            .summary-table thead th,
+            #printTotals thead th {
+                color: #fff !important;
+                background-color: #23266d !important;
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
 
-  .print-table th,
-  .print-table td,
-  .summary-table th,
-  .summary-table td {
-    border: 1px solid #000;
-    padding: 2px 4px;
-    text-align: left;
-    page-break-inside: avoid;
-  }
+            .print-table th,
+            .print-table td,
+            .summary-table th,
+            .summary-table td {
+                border: 1px solid #000;
+                padding: 2px 4px;
+                text-align: left;
+                page-break-inside: avoid;
+            }
 
-  .group-color-a {
-    background-color: #f2f2f2 !important;
-    -webkit-print-color-adjust: exact;
-    print-color-adjust: exact;
-    page-break-inside: avoid;
-  }
+            .group-color-a {
+                background-color: #f2f2f2 !important;
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+                page-break-inside: avoid;
+            }
 
-  .group-color-b {
-    background-color: #ffe071 !important;
-    -webkit-print-color-adjust: exact;
-    print-color-adjust: exact;
-    page-break-inside: avoid;
-  }
+            .group-color-b {
+                background-color: #ffe071 !important;
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+                page-break-inside: avoid;
+            }
 
-  #printTotals {
-    font-weight: bold;
-    margin-top: 6px;
-    font-size: 11px;
-    page-break-inside: avoid;
-  }
+            #printTotals {
+                font-weight: bold;
+                margin-top: 6px;
+                font-size: 11px;
+                page-break-inside: avoid;
+            }
 
-  .footer-graphic {
-    display: none !important;
-  }
+            .footer-graphic {
+                display: none !important;
+            }
 
-  /* Spriječi razbijanje redova i ćelija */
-  tr, td, th {
-    page-break-inside: avoid;
-    break-inside: avoid;
-  }
-}
+            /* Spriječi razbijanje redova i ćelija */
+            tr,
+            td,
+            th {
+                page-break-inside: avoid;
+                break-inside: avoid;
+            }
+        }
 
         .napomena-wrapper {
-  margin-top: 16px;
-}
+            margin-top: 16px;
+        }
 
-#napomena {
-    padding:0;
-}
+        #napomena {
+            padding: 0;
+        }
 
-.print-button {
-  display: block;
-  width: 100%;
-  padding: 12px 16px;
-  font-size: 15px;
-  font-weight: 500;
-  background-color: #0078D4;
-  color: white;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  margin-top: 20px;
-}
+        .print-button {
+            display: block;
+            width: 100%;
+            padding: 12px 16px;
+            font-size: 15px;
+            font-weight: 500;
+            background-color: #0078D4;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-top: 20px;
+        }
 
-.print-button:hover {
-  background-color: #005fa3;
-}
+        .print-button:hover {
+            background-color: #005fa3;
+        }
 
-.notes-area {
-  width: 100%;
-  min-height: 80px;
-  padding: 8px;
-  font-size: 13px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  resize: vertical;
-  background-color: #fefefe;
-}
+        .notes-area {
+            width: 100%;
+            min-height: 80px;
+            padding: 8px;
+            font-size: 13px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            resize: vertical;
+            background-color: #fefefe;
+        }
+
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -325,7 +343,7 @@ border-radius: 6px;
         .add-btn {
             font-weight: bolder;
             background: #10b981;
-            border:1px solid #10b981;
+            border: 1px solid #10b981;
             color: white;
             margin-top: 8px;
         }
@@ -333,14 +351,14 @@ border-radius: 6px;
         .add-btn:hover {
             background: #b3e9d7;
             color: #053525;
-            border:1px solid #10b981;
+            border: 1px solid #10b981;
             margin-top: 8px;
         }
 
         .remove-btn {
             font-weight: bolder;
             background: #ef4444;
-            border:1px solid #ef4444;
+            border: 1px solid #ef4444;
             color: white;
             width: 100%;
         }
@@ -348,7 +366,7 @@ border-radius: 6px;
         .remove-btn:hover {
             background: #ee9797;
             color: #550a0a;
-            border:1px solid #ef4444;
+            border: 1px solid #ef4444;
             width: 100%;
         }
 
@@ -420,14 +438,21 @@ border-radius: 6px;
         </div>
 
         <div class="napomena-wrapper">
-  <textarea id="napomena" class="notes-area" rows="4" placeholder="Unesi napomenu ako treba"></textarea>
-</div>
+            <textarea id="napomena" class="notes-area" rows="4" placeholder="Unesi napomenu ako treba"></textarea>
+        </div>
 
 
         <div class="actions">
-  <button class="print-button" onclick="window.print()">📄 Sačuvaj kao PDF ili štampaj</button>
-</div>
+            <button class="print-button" onclick="window.print()">📄 Sačuvaj kao PDF ili štampaj</button>
+        </div>
+        <p id="disclaimer">
+            Napomena: Molimo da prije slanja još jednom provjerite sve unesene podatke.
+            Ne preuzimamo odgovornost za eventualne greške u unosu ili obradi podataka. <br>U slučaju tehničke greške ili
+            neispravnog prikaza, kontaktirajte me na <a href="mailto:hello@woxdzn.com">hello@woxdzn.com</a>.
+            Hvala na razumijevanju.
+        </p>
     </div>
+
 
     <!-- Print-only prikaz -->
     <div id="printView" style="display:none;">
@@ -455,25 +480,27 @@ border-radius: 6px;
             </tbody>
         </table>
 
+
         <div class="footer-graphic" style="margin-top:12px;">
             <img src="https://i.postimg.cc/Xv1Ss57r/footer.jpg" alt="Footer">
         </div>
+
     </div>
 
     <script>
         fetch('poste.json')
-    .then(res => res.json())
-    .then(data => {
-      const datalist = document.getElementById('postaLista');
-      data.forEach(p => {
-        const option = document.createElement('option');
-        option.value = `${p.PostanskiBroj} ${p.GradMjesto}`;
-        datalist.appendChild(option);
-      });
-    });
+            .then(res => res.json())
+            .then(data => {
+                const datalist = document.getElementById('postaLista');
+                data.forEach(p => {
+                    const option = document.createElement('option');
+                    option.value = `${p.PostanskiBroj} ${p.GradMjesto}`;
+                    datalist.appendChild(option);
+                });
+            });
 
-  // Automatski timestamp
-  document.getElementById('timestamp').value = new Date().toLocaleString('bs-BA');
+        // Automatski timestamp
+        document.getElementById('timestamp').value = new Date().toLocaleString('bs-BA');
 
 
         document.getElementById('posta').addEventListener('change', function () {
@@ -582,13 +609,13 @@ border-radius: 6px;
             });
 
             const controlsRow = document.createElement('div');
-controlsRow.className = 'group-controls';
-controlsRow.appendChild(addBtn);
-controlsRow.appendChild(totalEl);
-groupDiv.appendChild(controlsRow);
+            controlsRow.className = 'group-controls';
+            controlsRow.appendChild(addBtn);
+            controlsRow.appendChild(totalEl);
+            groupDiv.appendChild(controlsRow);
             const divider = document.createElement('div');
-divider.className = 'blagajna-divider';
-groupDiv.appendChild(divider);
+            divider.className = 'blagajna-divider';
+            groupDiv.appendChild(divider);
             groupsContainer.appendChild(groupDiv);
 
             // ⛔️ Ne dodajemo red automatski
@@ -700,53 +727,53 @@ groupDiv.appendChild(divider);
             let colorIndex = 0;
 
             document.querySelectorAll('#groups .group').forEach(group => {
-    const category = group.querySelector('.group-title')?.textContent || '';
-    const currency = currencyFor(category);
-    let groupTotal = 0;
+                const category = group.querySelector('.group-title')?.textContent || '';
+                const currency = currencyFor(category);
+                let groupTotal = 0;
 
-    // Prvo izračunaj zbir
-    group.querySelectorAll('tbody tr').forEach(row => {
-        const apoen = parseFloat(row.querySelector('.denom')?.value || 0);
-        const komada = parseInt(row.querySelector('.qty')?.value || 0);
-        const iznos = apoen * komada;
-        if (apoen && komada) groupTotal += iznos;
-    });
+                // Prvo izračunaj zbir
+                group.querySelectorAll('tbody tr').forEach(row => {
+                    const apoen = parseFloat(row.querySelector('.denom')?.value || 0);
+                    const komada = parseInt(row.querySelector('.qty')?.value || 0);
+                    const iznos = apoen * komada;
+                    if (apoen && komada) groupTotal += iznos;
+                });
 
-    // Ako je zbir > 0, dodijeli boju i dodaj redove
-    if (groupTotal > 0) {
-        const rowColorClass = colorClasses[colorIndex % colorClasses.length];
-        colorIndex++;
+                // Ako je zbir > 0, dodijeli boju i dodaj redove
+                if (groupTotal > 0) {
+                    const rowColorClass = colorClasses[colorIndex % colorClasses.length];
+                    colorIndex++;
 
-        group.querySelectorAll('tbody tr').forEach(row => {
-            const apoen = parseFloat(row.querySelector('.denom')?.value || 0);
-            const komada = parseInt(row.querySelector('.qty')?.value || 0);
-            const iznos = apoen * komada;
+                    group.querySelectorAll('tbody tr').forEach(row => {
+                        const apoen = parseFloat(row.querySelector('.denom')?.value || 0);
+                        const komada = parseInt(row.querySelector('.qty')?.value || 0);
+                        const iznos = apoen * komada;
 
-            if (apoen && komada) {
-                const tr = document.createElement('tr');
-                tr.className = rowColorClass;
-                tr.innerHTML = `
+                        if (apoen && komada) {
+                            const tr = document.createElement('tr');
+                            tr.className = rowColorClass;
+                            tr.innerHTML = `
                     <td>${category}</td>
                     <td>${formatAmount(apoen)}</td>
                     <td>${komada}</td>
                     <td>${formatAmount(iznos)}</td>
                 `;
-                mainBody.appendChild(tr);
-            }
-        });
+                            mainBody.appendChild(tr);
+                        }
+                    });
 
-        const summaryRow = document.createElement('tr');
-        summaryRow.className = rowColorClass;
-        summaryRow.innerHTML = `
+                    const summaryRow = document.createElement('tr');
+                    summaryRow.className = rowColorClass;
+                    summaryRow.innerHTML = `
             <td>Zbir za ${category}</td>
             <td style="text-align:right;">${formatAmount(groupTotal)} ${currency}</td>
         `;
-        summaryRows.push(summaryRow);
+                    summaryRows.push(summaryRow);
 
-        if (currency === 'KM') totalBAM += groupTotal;
-        else totalEUR += groupTotal;
-    }
-});
+                    if (currency === 'KM') totalBAM += groupTotal;
+                    else totalEUR += groupTotal;
+                }
+            });
 
             printGroups.appendChild(mainTable);
 
@@ -789,5 +816,3 @@ groupDiv.appendChild(divider);
 </body>
 
 </html>
-
-
